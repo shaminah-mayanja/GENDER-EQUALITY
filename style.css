@@ -1,0 +1,243 @@
+body{
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+    background-color: teal;
+    color: yellow;
+    line-height: 1.8;
+}
+/*----------NAVIGATION BAR----------*/
+nav{
+    background-color:white;
+    padding: 15px 0;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    display: inline-flex;
+}
+nav a{
+    color: white;
+    text-decoration: none;
+    margin: 0 25px;
+    font-weight: 500;
+    font-size: 18px;
+    transition: color 0.3s ease;
+    
+}
+nav header{
+    background-color: darkolivegreen;
+}
+nav a:hover{
+    color: #ffcc70;
+}
+
+/*--------HEADERS AND TITLES-------*/
+h1, h2, h3{
+    text-align: center;
+    color: black;
+    margin-top: 40px;
+    margin-bottom: 15px;
+}
+h1{
+    font-size: 38px;
+    border-bottom: 3px solid #ffb347;
+    display: inline-block;
+    padding-bottom: 8px;
+}
+h2{
+    font-size: 38px;    margin: 50px;
+}
+h3{
+    color: yellow;
+    font-size: 22px;
+}
+/*---------SECTIONS/ CONTENT BOXES----------*/
+section{
+    padding: 60px 20px;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    max-width: 600px;
+    margin: 12px auto;
+}
+.form-group {
+    margin-bottom: 12px;
+    text-align: left;
+}
+label {
+    display: block;
+    margin-bottom: 6px;
+    color: #007f80;
+    font-weight: 700;
+}
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font: inherit;
+}
+.button {
+    background-color: #007f80;
+    color: #fff;
+    padding: 10px 16px;
+    border: 0;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: transform .12s ease, background-color .12s ease;
+}
+.button:hover {
+    background-color: #007f80;
+    transform: translateY(-2px);
+}
+.box{
+    background-color: #c9ede9;
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+/*------PARAGRAGHS-------*/
+p{
+    font-size: 17px;
+    max-width: 900px;
+    margin:0 auto 20px auto;
+    text-align: center;
+}
+/*----------IMAGES--------*/
+img{
+    display: block;
+    margin: 20px auto;
+    max-width: 90%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+/*---------small images---------*/
+.small-img{
+    width: 60%;
+    max-width: 400px;
+    object-fit: cover;
+}
+/*----------TESTIMONIAL SECTION---------*/
+#testimonials{
+    background-color: white;
+    padding: 80px 20px;
+    text-align: center;
+}
+#testimonials h3{
+    font-size: 36px;
+    color: #004d4d;
+    margin-bottom: 15px;
+}
+.section-intro{
+    font-size: 18px;
+    color: black;
+    margin-bottom: 50px;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 1.8;
+}
+.testimonial-container{
+    background-color: greenyellow;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px;
+}
+.testimonial-box{
+    background-color: #d4eb08;
+    padding: 25px;
+    border-radius: 12px;
+    width: 300px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.testimonial-box:hover{
+    transform: translateY(-8px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+.testimonial-box img{
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 15px;
+    border: 3px solid black;
+}
+.testimonial-box h3{
+    margin-bottom: 5px;
+    color: teal;
+}
+.role{
+    font-style: italic;
+    color: #007f80;
+    margin-bottom: 15px;
+    font-size: 15px;
+}
+.testimonial-box p{
+    font-size: 16px;
+    color: teal;
+    line-height: 1.6;
+}
+/*Responsive*/
+@media(max-width: 768px){
+    .testimonial-container{
+        flex-direction: column;
+        align-items: center;
+    }
+    .testimonial-box{
+        width: 90%;
+    }
+}
+    /*----------FOOTER---------*/
+    footer{
+        background-color: #004d4d;
+        color: white;
+        text-align: center;
+        padding: 15px;
+        font-size: 14px;
+        margin-top: 50px;
+    }
+    /*----------RESPONSIVE DESIGN---------*/
+    @media (max-width:768px) {
+        nav a{
+            display: block;
+            margin: 10px 0;
+        }
+        .box {
+            padding: 20px;
+        }
+        h1{
+            font-size: 30px;
+        }
+    }
+
+    
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
